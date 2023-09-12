@@ -1,7 +1,13 @@
+body {
+  background-color: rgb(110, 55, 55);
+}
+
+
 .header {
   background-color: rgb(172, 134, 134);
   text-align: center;
   height: 2rem;
+ 
 }
 
 .input-form {
