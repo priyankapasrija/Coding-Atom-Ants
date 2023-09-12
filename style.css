@@ -70,3 +70,14 @@ ul li span {
   box-shadow: 0 5px 10px #101010;
 }
 
+/* Test: Try too sltyle the "delete" item"*/
+
+.result li span{
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 25px;
+  margin: 85px auto 0;
+  margin-left: 75%;
+}
