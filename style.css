@@ -48,7 +48,7 @@ ul li {
   margin: 85px auto 0;
   background-color: rgb(172, 134, 134);
   border: 2px;
-  color: rgb(77, 75, 75);
+  color: rgb(2, 2, 2);
   font-weight: 600;
 }
 ul li span {
@@ -79,5 +79,5 @@ ul li span {
   border-radius: 8px;
   padding: 25px;
   margin: 85px auto 0;
-  margin-left: 75%;
+  margin-left: 80%;
 }
