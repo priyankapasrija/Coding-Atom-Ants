@@ -35,15 +35,16 @@ ul li {
   margin: auto;
   margin-top: 1.5rem;
   width: 40rem;
-  height: 2.2rem;
+  height: auto;
   background-color: bisque;
   border: 2px solid bisque;
   border-radius: 5px;
   color: rgb(77, 75, 75);
   font-weight: 600;
+ overflow-wrap:break-word;
 }
 ul li span {
-  margin-left: 540px;
+  margin-left: 0px;
   color: blueviolet;
   height: 1.5rem;
 }
