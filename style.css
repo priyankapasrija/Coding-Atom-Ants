@@ -1,13 +1,13 @@
 * {
   padding:0;
   margin:0;
+  box-sizing: border-box;
+  
 }
 
 body {
   background-color: rgb(110, 55, 55);
-
 }
-
 
 header {
   background-color: rgb(172, 134, 134);
@@ -34,25 +34,47 @@ header h1{
 .input-form {
   text-align: center;
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  margin:1rem 0.25rem ;
 }
 
 .input {
   border: 2px solid black;
   width: 35rem;
-  height: 2.3rem;
+  padding:0.5rem;
+  height:2rem;
+  border-radius: 50cqh 0 0 50cqh;
+}
+
+.input:active {
+  border:5px purple solid;
 }
 
 .add {
-  background-color: rgb(166, 150, 122);
+  height: 2rem;
+  flex-shrink:0;
+  background-color: orange;
   padding: 0.3rem 1rem;
-  border: 1px solid black;
+  border: 2px solid black;
+  border-radius:0 50cqh 50cqh 0;
+  font-weight: bold;
+  color: darkmagenta;
 }
 
-ul {
-  text-align: center;
+.add:hover {
+  background-color:darkorange;
 }
 
 ul li {
+  display:flex;
+  width:min-content;
+  margin:auto;
+
+  justify-content: center;
+}
+
+/* ul li {
   margin: auto;
   margin-top: 1.5rem;
   width: 40rem;
@@ -64,8 +86,44 @@ ul li {
   font-weight: 600;
  overflow-wrap:break-word;
 }
+ */
+
+ul li p {
+  flex-shrink:1;
+  background-color:white;
+  border: 2px solid black;
+  width: 35rem;
+  padding:0.5rem;
+  height:2rem;
+  border-radius: 50cqh 0 0 50cqh;
+  margin:auto;
+  overflow:hidden;
+
+}
+
+
 ul li span {
   margin-left: 0px;
   color: blueviolet;
   height: 1.5rem;
+}
+
+.checkbox {
+  width: 2rem;
+  height: 2rem;
+  background: white;
+  border: 2px solid black;
+  border-radius: 50cqh;
+  margin-right:0.25rem;
+}
+
+.editbtn {
+  height: 2rem;
+  flex-shrink:0;
+  background-color: orange;
+  padding: 0.3rem 1rem;
+  border: 2px solid black;
+  border-radius:0 50cqh 50cqh 0;
+  font-weight: bold;
+  color: darkmagenta;
 }
