@@ -45,6 +45,7 @@ header h1{
   padding:0.5rem;
   height:2rem;
   border-radius: 50cqh 0 0 50cqh;
+  font-size:1.25rem;
 }
 
 .input:active {
@@ -66,12 +67,17 @@ header h1{
   background-color:darkorange;
 }
 
+ul {
+  margin: 0 0.25rem;
+}
+
+
 ul li {
   display:flex;
   width:min-content;
-  margin:auto;
-
-  justify-content: center;
+  max-width:100%;
+  margin:0.25rem auto ;
+  justify-content:center;
 }
 
 /* ul li {
@@ -92,38 +98,45 @@ ul li p {
   flex-shrink:1;
   background-color:white;
   border: 2px solid black;
-  width: 35rem;
+  width: 35.75rem;
   padding:0.5rem;
   height:2rem;
-  border-radius: 50cqh 0 0 50cqh;
+  border-radius:0 50cqh 50cqh 0;
   margin:auto;
   overflow:hidden;
-
+  font-family:sans-serif;
+  transition: width 0.2s;
 }
 
-
-ul li span {
-  margin-left: 0px;
-  color: blueviolet;
-  height: 1.5rem;
+ul li p:hover {
+  width:36.75rem;
 }
 
 .checkbox {
+  flex-shrink:0;
   width: 2rem;
   height: 2rem;
   background: white;
   border: 2px solid black;
   border-radius: 50cqh;
-  margin-right:0.25rem;
+  margin-left:0.25rem;
+  text-align:center;
+  font-size:1.25rem;
+  cursor: pointer;
 }
 
 .editbtn {
+  width: auto;
   height: 2rem;
   flex-shrink:0;
-  background-color: orange;
+  flex-grow:0;
+  background-color: darkred;
   padding: 0.3rem 1rem;
-  border: 2px solid black;
-  border-radius:0 50cqh 50cqh 0;
+  border-style: solid; border-color: black;
+  border-width: 2px 0px 2px 2px;
+  border-radius: 50cqh 0 0  50cqh ;
   font-weight: bold;
-  color: darkmagenta;
+  color: white;
+  font-family:sans-serif;
+  cursor: pointer;
 }
