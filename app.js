@@ -1,8 +1,8 @@
-const input = document.querySelector("input");
-const form = document.querySelector("form");
-const btn = document.querySelector(".add");
-const result = document.querySelector(".result");
-const delBtn = document.querySelector(".delete");
+const input   = document.querySelector("input");
+const form    = document.querySelector("form");
+const btn     = document.querySelector(".add");
+const result  = document.querySelector(".result");
+const delBtn  = document.querySelector(".delete");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
