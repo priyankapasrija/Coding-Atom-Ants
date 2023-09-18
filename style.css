@@ -140,3 +140,8 @@ ul li p:hover {
   font-family:sans-serif;
   cursor: pointer;
 }
+
+#clearAll {
+  text-align:center;
+  cursor:pointer;
+}
